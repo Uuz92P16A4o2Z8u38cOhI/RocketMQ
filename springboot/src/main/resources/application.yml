@@ -1,0 +1,13 @@
+server:
+  port: 9050
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: hyl-group
+    //消息轨迹
+    enable-msg-trace: true
+    customized-trace-topic: my-trace-topic
+    //ACL功能
+    access-key: AK
+    secret-key: SK
+
